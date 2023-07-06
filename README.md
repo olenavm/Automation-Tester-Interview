@@ -23,9 +23,9 @@ Change credentials with real data
 
 ## How to run the tests
 
-1. Go to https://dashboard.nexudus.com/billing/products and login as test user.
-2. Ensure the Location is equal 'Kalkio Network'
-3. Run the tests from command line.
+1. Go to https://dashboard.nexudus.com/billing/products and login as a test user.
+2. Ensure the Location is equal to 'Kalkio Network'
+3. Run the tests from a command line.
 
 ```
 npx playwright test
