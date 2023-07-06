@@ -2,8 +2,8 @@
 const { test, expect, chromium } = require('@playwright/test');
 
 const HEADLESS_MODE = process.env.HEADLESS ? true : false;
-const VIEWPORT_WIDTH = 1920;
-const VIEWPORT_HEIGHT = 1200;
+const VIEWPORT_WIDTH = 1600;
+const VIEWPORT_HEIGHT = 1080;
 
 test("Navigate to billing_products",async () => {
     const url = 'https://dashboard.nexudus.com/billing/products';
